@@ -1,9 +1,12 @@
-@import url(reset.css);
+vg66tftfsa3 'aw\2wzs1ds\@import url(reset.css);
 @import url(header.css);
-
 :root{
-    --branco: #FFFFFF;
-    --cor-de-fundo: #EBECCE;
-    --laranja: #EB9B00;
-    --azul-degrade: linear-gradient(97.56deg, #002f52 35.49%,#326589 165.37%)
+    --laranja: #eb9b00;
+    --cor-de-fundo: #ebecee;
+    --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #59788e 165.37%);
+
+}
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: "Poppins", sans-serif;
 }
