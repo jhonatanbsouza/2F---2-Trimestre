@@ -1,49 +1,49 @@
-.cabecalho{
+body {
+    background-color: var(--cor-de-fundo);
+}
+.cabecalho {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+     justify-content: space-between;
+     background-color: var(--branco);
+     align-items: center;
+}
+
+.container{
+
+    margin: 0px 20px;
+    padding: 0.5; 
+}
+    .lista-titulo{
     background-color: var(--branco);
+    color: var(--laranja);  
 }
 
 .menu-hamburguer{
-   width: 24px;
-   height: 24px;
-   display: inline-block;
-   background-image: url(../img/AluraBooks/Menu.svg);
-    background-position: center ;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-image: url(../img/AluraBooks/Menu.svg);
+    background-position: center;
     background-repeat: no-repeat;
+
 }
 
-.menu-lista{
+.menu-lista {
     display: none;
     position: absolute;
     width: 60vw;
-    text-transform: uppercase;
 }
-
-.seletor-menu:checked ~ .menu-lista{
-    display: block;
-
-}
-
- .menu-lista-item, .menu-lista-titulo{
-    background-color: white;
-    padding: 1em;
-
- }
-.menu-lista-titulo{
-    color: var(--laranja);
-    font-weight: 700;
-}
-
-.menu-lista-link{
-    background: var(--azul-degrade);
-    --webkit-background-clip: text;
-    --webkit-text-fill-color:transparent;
-    background-clip: text;
-    text-transform: uppercase;
-}
-
-.seletor-menu{
+.menu-checkbox{
     display: none;
+}
+
+
+.menu-checkbox:checked ~.menu-lista{
+    display: block;
+}
+
+.lista-item {
+    padding: 1em;
+    background-color: var(--branco);
+
 }
