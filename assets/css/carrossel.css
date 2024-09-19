@@ -50,10 +50,10 @@
     display: flex;
 }
 
-/* 
-    Para o título do livro coloquem:
-    cor de texto: azul
-    tamanho da fonte: 18px
-    peso da fonte: 700;
-    margem: 0.5em
-*/
+.botoes-ancora{
+    background-color: var(--laranja);
+    padding: 1em 2.2em;
+    color: var(--branco);
+    text-decoration: none;
+    font-weight: 700;
+}
